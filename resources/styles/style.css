@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+}
+
+.navbar {
+    width: 100%;
+    height: 4rem;
+    background-color: #010409;
+    border-bottom: 0.5px solid rgb(255, 255, 255, 0.3);
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-left-side {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.navbar-right-side {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.hand-burger-holder {
+    width: auto;
+    height: 100%;
+    display: inline-block;
+    border: 0.5px solid rgb(255, 255, 255, 0.3);
+    border-radius: 0.375rem;
+    padding: 0.4rem;
+    margin: 0 0.3rem;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hand-burger-holder > svg {
+    width: auto;
+    height:  100%;
+    fill: rgb(255, 255, 255, 0.5);
+}
+
+.brand-banner-holder {
+    width: auto;
+    height: 100%;
+    margin: 0 1rem;
+}
+
+.brand-banner-holder > svg {
+    width: auto;
+    height:  100%;
+    fill: #e6edf3;
+}
+
+.brand-banner-text-holder {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 0.375rem;
+}
+
+.profile-picture-holder {
+    width: auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    align-self: flex-end;
+    margin: 0 0.3rem;
+}
+
+.brand-banner-text-holder > a {
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    text-decoration: none;
+    color: #e6edf3;
+}
+
+.profile-picture-holder > img {
+    height: 100%;
+    border-radius: 40px;
+}
+
+.brand-banner-text-holder:hover {
+    background-color: #ffffff11;
+}
+
+.search-bar {
+    width: 300px;
+    height: 100%;
+    border: 0.5px solid rgb(255, 255, 255, 0.3);
+    border-radius: 0.375rem;
+    padding: 0.4rem;
+    margin: 0 0.3rem;
+    display: flex;
+    align-items: center;
+}
+
+.search-bar > span {
+    color: #e6edf36b;
+    margin: 0 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+.search-special {
+    border: 0.5px solid rgb(255, 255, 255, 0.3);
+    border-radius: 0.2rem;
+    margin: 5px;
+    padding: 0 4px;
+}
+
+.search-bar > svg {
+    height: 100%;
+    fill: rgba(255, 255, 255, 0.463);
+    margin: 0 3px;
+}
+
+.vertical-seperation {
+    display: inline-block;
+    width: 1px;
+    height: 80%;
+    content: "";
+    background: #30363d;
+    margin: 0 5px;
+}
+
+body {
+    background-color: #010409;
+}

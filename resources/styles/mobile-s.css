@@ -1,0 +1,5 @@
+@media screen and (max-width: 320px) {
+    .hand-burger-holder {
+        display: none;
+    }
+}
