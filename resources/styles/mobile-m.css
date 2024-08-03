@@ -1,0 +1,16 @@
+.search-bar, .vertical-seperation, .add-or-select-option, .issues-btn, .pull-request-btn {
+    display: none;
+}
+
+.hand-burger-holder {
+    padding: 0.2rem;
+    margin: 0 0.1rem;
+}
+
+.navbar {
+    padding: 1rem 0.2rem;
+}
+
+.sample {
+    background-color: blue;
+}

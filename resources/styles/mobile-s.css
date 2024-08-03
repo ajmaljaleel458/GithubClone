@@ -1,5 +1,15 @@
-@media screen and (max-width: 320px) {
-    .hand-burger-holder {
-        display: none;
-    }
+.search-bar, .vertical-seperation, .add-or-select-option, .issues-btn, .pull-request-btn, .brand-banner-text-holder {
+    display: none;
+}
+
+.hand-burger-holder {
+    padding: 0.2rem 0.2rem;
+}
+
+.brand-banner-holder {
+    margin: 0 0.5rem;
+}
+
+.navbar {
+    padding: 1rem 0.2rem;
 }
