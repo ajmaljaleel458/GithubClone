@@ -1,4 +1,4 @@
-.search-bar, .vertical-seperation, .add-or-select-option, .issues-btn, .pull-request-btn {
+.search-bar, .vertical-seperation, .add-or-select-option, .issues-btn, .pull-request-btn, .right-side-feed, .side-bar-holder, .main-content-fight-side-feed {
     display: none;
 }
 
@@ -13,4 +13,13 @@
 
 .sample {
     background-color: blue;
+}
+
+.content-holder {
+    flex-direction: column;
+}
+
+.side-bar-holder {
+    width: 100%;
+    height: auto;
 }

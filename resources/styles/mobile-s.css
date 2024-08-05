@@ -1,4 +1,4 @@
-.search-bar, .vertical-seperation, .add-or-select-option, .issues-btn, .pull-request-btn, .brand-banner-text-holder {
+.search-bar, .vertical-seperation, .right-side-feed, .main-content-fight-side-feed, .add-or-select-option, .issues-btn, .pull-request-btn, .brand-banner-text-holder {
     display: none;
 }
 
@@ -12,4 +12,12 @@
 
 .navbar {
     padding: 1rem 0.2rem;
+}
+
+.side-bar-holder {
+    width: 100%;
+    height: auto;
+}
+.content-holder {
+    flex-direction: column;
 }

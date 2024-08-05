@@ -1,4 +1,4 @@
-.search-bar {
+.search-bar, .right-side-feed, .main-content-fight-side-feed {
     display: none;
 }
 
