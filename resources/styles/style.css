@@ -347,6 +347,7 @@ body {
 .main-feed-title-discription-holder > h4{
     color: #8d96a0;
     font-size: 0.8rem;
+    text-overflow: ellipsis;
 }
 
 .main-feed-option-menu-holder > svg {
@@ -365,6 +366,7 @@ body {
 .main-feed-content-row1 {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 
 .main-feed-content-row2 {
@@ -381,6 +383,9 @@ body {
 .main-cotet-feed-option-menu-holder {
     display: flex;
     padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .main-feed-option-button-1 {
@@ -650,3 +655,4 @@ body {
     text-decoration: none;
     color: white;
 }
+

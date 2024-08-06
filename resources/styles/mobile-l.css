@@ -1,4 +1,4 @@
-.search-bar, .vertical-seperation, .add-or-select-option, .issues-btn, .pull-request-btn, .right-side-feed, .side-bar-holder, .main-content-fight-side-feed {
+.search-bar, .vertical-seperation, .add-or-select-option, .issues-btn, .pull-request-btn, .right-side-feed, .main-content-fight-side-feed {
     display: none;
 }
 
@@ -17,4 +17,21 @@
 .side-bar-holder {
     width: 100%;
     height: auto;
+    background-color: #0d1117;
+    border-radius: 0.375rem;
+    border: 1px solid #30363d;
+    position: static;
+}
+
+.content-holder {
+    flex-direction: column;
+    padding: 20px;
+}
+
+.main-content-holder {
+    padding: 0;
+}
+
+.main-feed-menu-holder {
+    margin: 20px 0;
 }
